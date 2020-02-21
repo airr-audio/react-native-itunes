@@ -186,13 +186,6 @@ RCT_EXPORT_METHOD(getTracks:(NSDictionary *)params successCallback:(RCTResponseS
             playCount = @"0";
         }
 
-        //        NSString *test = @"1";
-        //        int *testId = [test intValue];
-        //        Boolean testBool = [test intValue];
-        //        NSLog(@"testId %d", testId);
-        //        NSLog(@"testBool %d", testBool);
-
-
         NSDictionary *songDictionary = [NSMutableDictionary dictionary];
 
         if (fields == nil) {
