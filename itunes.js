@@ -1,6 +1,6 @@
-var React = require("react-native");
+import { NativeModules } from 'react-native';
 
-var { RNiTunes } = require("react-native").NativeModules;
+var { RNiTunes } = NativeModules;
 
 module.exports = {
   getPlaylists: function(params) {

@@ -19,7 +19,7 @@
 
 }
 
-RCT_EXPORT_MODULE()
+RCT_EXPORT_MODULE(RNiTunes)
 
 RCT_EXPORT_METHOD(getArtists:(NSDictionary *)params successCallback:(RCTResponseSenderBlock)successCallback) {
 
